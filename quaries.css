@@ -1,0 +1,158 @@
+@media (max-width: 1200px) {
+  .section-hero {
+    padding: 6.4rem 0;
+    position: relative;
+    height: 100vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .hero-heading {
+    font-size: 2.4rem;
+  }
+  .hero-heading-palagraph {
+    font-size: 1.4rem;
+    margin-bottom: 2.8rem;
+  }
+  .container {
+    max-width: 110rem;
+  }
+  .hero-heading {
+    text-align: center;
+    margin-top: 8.8rem;
+  }
+  .meal-name {
+    margin-left: 4rem;
+  }
+  .meals-button {
+    margin-left: 35rem;
+    margin-bottom: 3.2rem;
+  }
+  .meal-img {
+    width: 16rem;
+    height: 16rem;
+    margin-bottom: 1.8rem;
+    text-align: center;
+  }
+  .meals-section {
+    max-width: 90rem;
+    gap: 2.8rem;
+    margin-left: 0.8rem;
+  }
+  .hero-heading {
+    width: 90%;
+  }
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 2rem;
+    padding: 0.7rem 1.4rem;
+  }
+}
+@media (max-width: 570px) {
+  html {
+    font-size: 50%;
+  }
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0.6rem 1.2rem;
+  }
+  .section-hero-heading {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .hero-palagraph {
+    font-size: 1.6rem;
+    letter-spacing: 01px;
+    line-height: 1;
+  }
+  .hero-heading {
+    margin-top: 1rem;
+  }
+  .hero-heading {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+  }
+  .hero-aside {
+    max-width: 90rem;
+    padding: 3.2rem;
+  }
+  .hero-aside-palagraph {
+    font-size: 1.4rem;
+  }
+  .meals-section {
+    gap: 1.8rem;
+    margin-left: 0;
+  }
+  .meal-name {
+    margin-left: 2rem;
+  }
+  .meal-img {
+    width: 14rem;
+    height: 14rem;
+  }
+  .works-head {
+    font-size: 1.8rem;
+  }
+  footer {
+    max-width: 80rem;
+    padding: 2.2rem;
+  }
+  .footer-head {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .section-hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(IMG/hero.jpg);
+    height: 85vh;
+  }
+}
+@media (max-width: 414px) {
+  .meals-section {
+    grid-template-columns: repeat(2, 1fr);
+    /* margin-left: 0.9rem; */
+    gap: 3.2rem;
+  }
+  html {
+    font-size: 44%;
+  }
+  .meal-img {
+    width: 25rem;
+    height: 25rem;
+  }
+  .meals-button {
+    margin-left: 20rem;
+    margin-bottom: 3.2rem;
+  }
+  .how-it-works-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.4rem;
+  }
+  footer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 75rem;
+  }
+  .section-hero {
+    height: 70vh;
+  }
+  .section-hero-heading {
+    left: 50%;
+    top: 50%;
+    transform: translate(-40%, -40%);
+  }
+  .hero-nav {
+    margin-top: -3.4rem;
+  }
+  .days {
+    border: none;
+    text-align: start;
+  }
+  .hours {
+    text-align: start;
+  }
+}
